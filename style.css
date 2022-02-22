@@ -1,0 +1,166 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: black;
+}
+nav img{
+    width: 90px;
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+#navbarMenu ul li{
+    display: inline-block;
+    padding: 6px 20px;
+    position: relative;
+}
+#navbarMenu ul li a{
+    color: #fff;
+    font-size: 15px;
+}
+.main-cover{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+#type-js {
+    text-align: center;
+    color: #fff;
+    font-weight: 550;
+    width: 100%;
+    font-size: 4vw;
+    position: absolute;
+    padding-top: 2%; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+footer{
+    color: #fff;
+}
+.socialNet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.socialNet ul {
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+.socialNet ul li {
+    display: inline;
+    padding: 0 50px;
+}
+.socialNet ul li a i {
+    cursor: pointer;
+    font-size: 2vw;
+    color: #fff;
+}
+/*PROFILE */
+.allprof h1{
+    text-align: center;
+    margin-top: 20px;
+    color:#fff; 
+}
+.allprof .row{
+    margin: 20px 0;
+    text-align: center;
+    color: #fff;
+}
+.allprof .row img {
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.allprof .row h5{
+    color:lightgray;
+}
+.allprof .row h6{
+    color:gray;
+}
+.column {
+    width: 50%;
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+/*DISCOGRAPHY*/
+.disco h1{
+    text-align: center;
+    margin-top: 20px;
+    color:#fff; 
+}
+.disco .row{
+    margin: 20px 0;
+    text-align: center;
+    color: #fff;
+}
+.disco .row img {
+    display: block;
+    width: 43%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.disco .row h6{
+    color:lightgray;
+}
+@media screen and (max-width: 1200px) {
+    .column {
+      width: 100%;
+    }
+  }
+.cypmusic {
+    margin-top: 15px;
+}
+.senioimusic {
+    margin-top: 15px;
+}
+/*CYPHER*/
+.cyphergeneral {
+    background-image: url("images/nightalmaty.jpg");
+    width: auto;
+}
+.cypherbody{
+    background-color: black;
+}
+.cypher-links {
+    margin-bottom: 0;
+    font-size: 20px;
+}
+.cypher-links b{
+    color: #fff;
+}
+#carouselExampleIndicators {
+  width: 40%;
+  margin: auto;
+}
+a:link{
+    text-decoration: none;
+}
+/*SENI OILAI*/
+.senioigeneral {
+    background-image: url("images/redrestaurant.jpg");
+    width: auto;
+    background-position: top;
+}
+.senioibody{
+    background-color: #881114;
+}
+.senioi-links {
+    margin-bottom: 0;
+    font-size: 15px;
+}
+.senioi-links b{
+    color: #fff;
+}
